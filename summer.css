@@ -1,0 +1,108 @@
+
+.nav-items{
+    align-items: end;
+}
+
+.dropdown-scroll{
+    /* font-size: 8px; */
+    max-height:300px;
+    overflow:scroll;
+}
+
+.union-territories-dropdown{
+    width: 5vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.background-summer{
+    background-image: url(states_bg.jpeg);
+    /* height: 100vh; */
+    background-size: cover;
+}
+
+.card-bg{
+    background-color: rgba(255, 255, 255, 1);
+    /* opacity: .80; */
+}
+.card-summer{
+    margin: 12vh;
+    padding: 4vh;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+.paragraph2 {
+    font-family: "Roboto";
+}
+
+.headings{
+    font-family: "Roboto";
+}
+
+.states-as-button{
+    transition: 0.3s;
+    /* height: 185px;
+    width: 295px;
+    height: fit-content; */
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 3vw;
+    border-radius: 10px;
+}
+
+.states-as-button:hover{
+    /** box-shadow: #1ECBE1 6px -6px; */
+    /* box-shadow: 5px 5px 5px rgb(32, 31, 31);  */
+    /* box-shadow: 5px 5px 5px #1ECBE1; */
+    /** scale: 1.03; */
+
+    scale: 1.02;
+    /* background-color: #5863F8 */
+    /* background-color: #1ECBE1; */
+    box-shadow: 5px 5px 5px black;
+}
+
+.image-summer{
+    opacity: 1;
+    /* margin: 10px;
+    margin-bottom: 0px;
+    margin-left: 35px;
+    margin-right: 3vw; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 295px;
+    height: 150px;
+}
+
+.button{
+    opacity: 1;
+    background-color: white;
+    border-width: 2px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 3vw; */
+    width: 295px;
+    height: 35px;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+/* .button-green{
+    background-color: chartreuse;
+    color: black;
+} */
+
+.green-card{
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+}
