@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autumn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="summer.css">
+</head>
+<body>
+
+    <!-- *navigation bar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary ">
+        <a class="navbar-brand" href="#" style="font-family: 'Bebas Neue', sans-serif; font-size: 25px;">Exploring the Beauty of India</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-items d-flex flex-column justify-content-end " id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="weather.html">Choose Weather</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        States
+                    </a>
+                    <ul class="dropdown-menu dropdown-scroll">
+                        <!-- <li>
+                            <hr class="dropdown-divider">
+                        </li> -->
+                        <li><a class="dropdown-item" href="andhra pradesh.html">Andhra Pradesh</a></li>
+                        <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                        <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                        <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                        <li><a class="dropdown-item" href="Chhattisgarh.html">Chhattisgarh</a></li>
+                        <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                        <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                        <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                        <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                        <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                        <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                        <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                        <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                        <li><a class="dropdown-item" href="Maharashtra.html">Maharashtra</a></li>
+                        <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                        <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                        <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                        <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                        <li><a class="dropdown-item" href="Odisha.html">Odisha</a></li>
+                        <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                        <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                        <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                        <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                        <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                        <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                        <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                        <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                        <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                        <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Union Territories
+                    </a>
+                    <ul class="dropdown-menu dropdown-scroll">
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu and Kashmir</a></li>
+                        <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                        <li><a class="dropdown-item" href="National Capital Territory of Delhi.html">National Capital Territory of Delhi</a></li>
+                        <li><a class="dropdown-item" href="Dadra & Nagar And Daman & Diu.html">Dadra & Nagar And Daman & Diu</a></li>
+                        <li><a class="dropdown-item" href="Chandigarh.html">Chandigarh</a></li>
+                        <li><a class="dropdown-item" href="Andaman And Nicobar.html">Andaman And Nicobar</a></li>
+                        <li><a class="dropdown-item" href="Pondicherry.html">Pondicherry</a></li>
+                        <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact us.html">Contact us</a>
+                </li>
+                <li class="nav-item nav-item-last">
+                    <a class="nav-link" href="About us.html">About us</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+
+    <div>
+        <div class="background-summer d-flex flex-column">
+            <div class="card-summer card-bg">
+                <!-- <p class="paragraph2"><b>[Note:-</b> Green color indicates that these states are more preferable to travel in that particular season.]</p> -->
+                <h1 class="headings">States:-</h1>
+                <div class="d-flex flex-column justify-content-center">
+                    <div class="d-flex flex-row">
+                        <a href="andhra pradesh.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="andhera pradesh.jpg" alt="">
+                                <button class="button">Andhra Pradesh</button>
+                            </div>
+                        </a>
+
+                        <a href="Arunachal Pradesh.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="Arunachal Pradesh.jpg" alt="">
+                                <button class="button">Arunachal Pradesh</button>
+                            </div>
+                        </a>
+
+                        <a href="Assam.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="assam2.jpg" alt="">
+                                <button class="button">Assam</button>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="d-flex flex-row">
+                        <a href="Bihar.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="Bihar_museum2.jpg" alt="">
+                                <button class="button">Bihar</button>
+                            </div>
+                        </a>
+
+                        <a href="Chhattisgarh.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="chhattisgarh.jpg" alt="">
+                                <button class="button">Chhattisgarh</button>
+                            </div>
+                        </a>
+
+                        <a href="Goa.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="Goa.jpg" alt="">
+                                <button class="button">Goa</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <a href="Gujarat.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="Gujarat.jpg" alt="">
+                                <button class="button">Gujarat</button>
+                            </div>
+                        </a>
+
+                        <a href="Haryana.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="Haryana.jpg" alt="">
+                                <button class="button">Haryana</button>
+                            </div>
+                        </a>
+
+                        <a href="Himachal Pradesh.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="Himachal pradesh Chail.jpg" alt="">
+                                <button class="button button-green">Himachal Pradesh</button>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="d-flex flex-row">
+                        <a href="Jharkhand.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="Jharkhand.jpg" alt="">
+                                <button class="button">Jharkhand</button>
+                            </div>
+                        </a>
+
+                        <a href="Karnataka.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="karnataka.jpg" alt="">
+                                <button class="button">Karnataka</button>
+                            </div>
+                        </a>
+
+                        <a href="Kerala.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="kerala.jpg" alt="">
+                                <button class="button">Kerala</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <a href="Madhya Pradesh.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="madhya pradesh.jpg" alt="">
+                                <button class="button">Madhya Pradesh</button>
+                            </div>
+                        </a>
+
+                        <a href="Maharashtra.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="maharashtra.jpg" alt="">
+                                <button class="button">Maharashtra</button>
+                            </div>
+                        </a>
+
+                        <a href="Manipur.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="manipur.jpg" alt="">
+                                <button class="button">Manipur</button>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="d-flex flex-row">
+                        <a href="Meghalaya.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="meghalaya.jpg" alt="">
+                                <button class="button">Meghalaya</button>
+                            </div>
+                        </a>
+
+                        <a href="Mizoram.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="mizoram.jpg" alt="">
+                                <button class="button">Mizoram</button>
+                            </div>
+                        </a>
+
+                        <a href="Nagaland.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="Nagaland.jpg" alt="">
+                                <button class="button">Nagaland</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <a href="Odisha.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="odisha.jpg" alt="">
+                                <button class="button">Odisha</button>
+                            </div>
+                        </a>
+
+                        <a href="Punjab.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="punjab.jpg" alt="">
+                                <button class="button">Punjab</button>
+                            </div>
+                        </a>
+
+                        <a href="Rajasthan.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="rajasthan2.jpg" alt="">
+                                <button class="button">Rajasthan</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <a href="Sikkim.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="sikkim.jpg" alt="">
+                                <button class="button">Sikkim</button>
+                            </div>
+                        </a>
+
+                        <a href="Tamil Nadu.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="tamil nadu.jpg" alt="">
+                                <button class="button">Tamil Nadu</button>
+                            </div>
+                        </a>
+
+                        <a href="Telangana.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="telangana.png" alt="">
+                                <button class="button">Telangana</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <a href="Tripura.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="tripura.JPG" alt="">
+                                <button class="button">Tripura</button>
+                            </div>
+                        </a>
+
+                        <a href="Uttar Pradesh.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="uttar pradesh.jpg" alt="">
+                                <button class="button">Uttar Pradesh</button>
+                            </div>
+                        </a>
+
+                        <a href="Uttarakhand.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="uttarakhand.jpg" alt="">
+                                <button class="button button-green">Uttarakhand</button>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="d-flex flex-row">
+                        <a href="West Bengal.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="west bangal.jpg" alt="">
+                                <button class="button">West Bengal</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <h1 class="headings">Union Territories:-</h1>
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row">
+                        <a href="Jammu and Kashmir.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="kashmir.jpg" alt="">
+                                <button class="button button-green">Jammu and Kashmir</button>
+                            </div>
+                        </a>
+
+                        <a href="Ladakh.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="ladakh.jpg" alt="">
+                                <button class="button">Ladakh</button>
+                            </div>
+                        </a>
+
+                        <a href="National Capital Territory of Delhi.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="delhi.jpg" alt="">
+                                <button class="button">National Capital Territory of Delhi</button>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="d-flex flex-row">
+                        <a href="Dadra & Nagar And Daman & Diu.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="diu.jpg" alt="">
+                                <button class="button">Dadra & Nagar And Daman & Diu</button>
+                            </div>
+                        </a>
+
+                        <a href="Chandigarh.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="chandigarh.jpg" alt="">
+                                <button class="button">Chandigarh</button>
+                            </div>
+                        </a>
+
+                        <a href="Andaman And Nicobar.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="Andaman.jpg" alt="">
+                                <button class="button">Andaman And Nicobar</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <a href="Pondicherry.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="pondicherry.jpeg" alt="">
+                                <button class="button">Pondicherry</button>
+                            </div>
+                        </a>
+
+                        <a href="Lakshadweep.html">
+                            <div class="states-as-button d-flex flex-column">
+                                <img class="image-summer" src="Lakshadweep.png" alt="">
+                                <button class="button">Lakshadweep</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p style="background-color: #007bffcd; color: aliceblue; text-align: center; line-height: 40px;">Made with love &hearts; by <b>Shyam Kumar Khatri.</b></p>
+        </footer>
+    </div>
+</body>
+</html>
